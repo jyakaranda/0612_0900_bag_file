@@ -375,6 +375,6 @@ topics:      /lslidar_point_cloud                     4103 msgs    : sensor_msgs
 ## summary
 
 - sum : `3957 s`
-- lidar : 约 `3957 s`
-- zed : 约 `3957 s` (`297 s` zed distorted within all_4.bag and all_5.bag)
-- camera : 约 `1195 s` (all_3.bag last `70 s` camera fell)
+- lidar : 约 `3957 s` ，约 1.09 MB/msg
+- zed : 约 `3957 s` (`297 s` zed distorted within all_4.bag and all_5.bag)，uncompressed 约 2.6 MB/msg，compressed 约 0.09 MB/msg
+- camera : 约 `1195 s` (all_3.bag last `70 s` camera fell)，约 0.88 MB/msg
